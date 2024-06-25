@@ -1,0 +1,5 @@
+export const APP_NAME = "Counter App"
+export const COUNT = "Count:"
+export const PLUS = "＋"
+export const MINUS = "ー"
+export const RESET = "↺"
