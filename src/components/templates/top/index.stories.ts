@@ -1,20 +1,20 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Counter } from './index';
+import { CounterTop } from './index';
 
 
 const meta = {
-  title: 'Counter/Organisms/Counter',
-  component: Counter,
+  title: 'Counter/Templates/Top',
+  component: CounterTop,
   parameters: {
     layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {},
-} satisfies Meta<typeof Counter>;
+} satisfies Meta<typeof CounterTop>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const CounterArea: Story = {
-  args: {count: 0},
+export const CounterTopPage: Story = {
+  args: { count: 0 },
 };
