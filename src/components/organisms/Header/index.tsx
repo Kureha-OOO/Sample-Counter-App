@@ -1,5 +1,11 @@
 interface HeaderProps {
+	  /**
+   * ヘッダータイトル
+   */
 	title: string;
+	  /**
+   * ヘッダーの背景色
+   */
 	bgColor?: 'white' | 'gray' | 'blue'
 }
 

@@ -1,25 +1,22 @@
 interface ButtonProps {
 	/**
-		* What background color to use
+		* ボタンの背景色
 		*/
 	bgColor?: 'red' | 'blue' | 'green' | 'gray';
 	/**
-	 * How large should the button be?
+	 * ボタンの大きさ
 	 */
 	size?: 'sm' | 'md' | 'lg';
 	/**
-	 * Button contents
+	 * ボタンのラベル
 	 */
 	label: string;
 	/**
-	 * Optional click handler
+	 * ボタン押下時のイベント
 	 */
 	onClick?: () => void;
 }
 
-/**
- * Primary UI component for user interaction
- */
 export const Button = ({
 	bgColor = 'gray',
 	size = 'md',

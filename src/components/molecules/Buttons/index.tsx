@@ -2,18 +2,18 @@ import { MINUS, PLUS, RESET } from "../../../common/constant";
 import { Button } from "../../atoms/Button";
 
 interface ButtonsProps {
-	/**
-	 * plus button click handler
-	 */
-	plusBtnClick?: () => void;
-  	/**
-	 * minus button click handler
-	 */
-	minusBtnClick?: () => void;
-    	/**
-	 * reset button click handler
-	 */
-	resetBtnClick?: () => void;
+  /**
+   * ＋ボタン押下時のイベント
+   */
+  plusBtnClick?: () => void;
+  /**
+ 　* ーボタン押下時のイベント
+ 　*/
+  minusBtnClick?: () => void;
+  /**
+　 * ↺ボタン押下時のイベント
+　 */
+  resetBtnClick?: () => void;
 }
 
 export const Buttons = ({...props}: ButtonsProps) => {
